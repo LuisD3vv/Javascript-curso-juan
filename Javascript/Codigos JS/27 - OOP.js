@@ -6,7 +6,7 @@ const producto = {
     nombre: "telefono",
     precio: 500
 }
-// Object Constructor mas moderno
+// Object Constructor mas moderno, una funcion cronstructora
 
 function Producto(nombre,precio,descripcion) {
     this.nombre = nombre;

@@ -143,7 +143,6 @@ img {
     margin-bottom: 2rem;
     border: none;
 }
-
 @media (min-width: 768px) {
     .boton {
         display: inline-block;
@@ -155,6 +154,7 @@ img {
 }
 .boton--primario {
     background-color: var(--negro);
+    border-radius: 0.5rem;
 }
 .boton--secundario {
     background-color: var(--primario);
@@ -234,6 +234,7 @@ img {
     padding: 1rem;
     color: var(--blanco);
     text-transform: uppercase;
+    border-radius: 0.5rem;
 }
 .correcto {
     background-color: rgb(74, 185, 0);
@@ -241,6 +242,8 @@ img {
     padding: 1rem;
     color: var(--blanco);
     text-transform: uppercase;
+    border-radius: 0.5rem;
+
 }
 .contacto-bg {
     background-image: url(../img/contacto.jpg);
