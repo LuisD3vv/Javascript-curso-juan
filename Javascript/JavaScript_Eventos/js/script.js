@@ -59,13 +59,11 @@ window.onscroll = () => {
 //     console.log("enviando fomulario culo");
 //
 // })
-
 const datos = {
     nombre: '',
     email: '',
     mensaje: ''
 }
-
 // Eventos de los Inputs y Textarea
 function leerTexto(e) {
     datos[e.target.id] = e.target.value;
@@ -78,7 +76,6 @@ const mensaje = document.querySelector('#mensaje');
 nombre.addEventListener('input', leerTexto);
 email.addEventListener('input', leerTexto);
 mensaje.addEventListener('input', leerTexto);
-
 
 // para formularios es mas recomendable para validar con submit e input para entradas
 formulario.addEventListener('submit', function(e) {

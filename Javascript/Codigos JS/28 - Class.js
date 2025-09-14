@@ -24,7 +24,7 @@ const producto3 = new Producto('Laptop',600,'Laptop msi');
 // Para practicar la Herencia, se utiliza el metodo (extends), para tener todos los atributos de el padre
 class Libro extends Producto {
     constructor(nombre, precio,isbn) { // aqui podemos los atributos
-        super(nombre,precio); // con super(), evitamos repetir el constructor y solamente traemos el nombre del atributo
+        super(nombre,precio); // con super(), evitamos repetir el constructor y solamente traemos el nombre del atributo de la clase padre.
         this.isbn = isbn;
     }
     // Metodo

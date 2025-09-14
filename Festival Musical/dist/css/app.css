@@ -2,7 +2,6 @@
 Aqui es donde debemos de colocar los estilos, no en un archivo normal css
 ya que se sobrescibe todo.
 */
-
 body {
-    background-color: lightcoral;
-    }
+  background-color: lightcoral;
+}
